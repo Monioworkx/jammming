@@ -3,9 +3,6 @@ import React from 'react';
 import './Track.css';
 
 class Track extends React.Component {
-/*     constructor(props) {
-        super(props);
-    } */
 
     renderAction() {
         const action = this.props.isRemoval 
